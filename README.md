@@ -19,14 +19,18 @@ Competitive Cluster Elimination (CCE) is a lightweight, evaluation-neutral plug-
 ## 🚀 Quick Start
 
 ```matlab
-% Example: Using CCE with PSO
-params.tau = 2;        % Refresh interval
-params.rho = 0.90;     % Replacement ratio  
-params.auto_K = true;  % Automatic cluster count
-params.s = 5;          % Lloyd iterations
+% Fixed CCE parameters
+global CCE_OPTS
+CCE_OPTS = struct('tau',2, ...          % refresh interval
+                  'rho',0.9, ...        % fraction replaced in the worst cluster
+                  'K',[], ...           % [] => auto-K = min(8, ceil(sqrt(N)))
+                  'steps',5, ...        % Lloyd steps in k-means
+                  'pick','min', ...     % 'min' or 'median'
+                  'avoid_best',true, ...
+                  'keep_one',true);
 
 % Run CCEPSO
-[best_solution, best_fitness] = CCEPSO(objective_func, bounds, params);
+[bestScore, ~, curve] = CCEPSO(nPop, MaxIt, lb, ub, dim_true, fobj);
 ```
 
 ## 📂 Repository Structure
