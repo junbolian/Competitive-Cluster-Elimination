@@ -42,7 +42,6 @@ Contains the complete implementation of CCE for all supported algorithms:
 - `CCEDE.m` - CCE-enhanced Differential Evolution
 - `CCESHADE.m` - CCE-enhanced SHADE algorithm
 - `CCEJADE.m` - CCE-enhanced JADE algorithm
-- `utils/` - Helper functions for clustering and scoring
 
 ### Section 3 - Parameter Sensitivity Analysis
 **Location**: `Section 3-parameter sensitive/`
