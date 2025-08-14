@@ -130,7 +130,7 @@ Shows the integration points where CCE hooks into base optimizers without disrup
 If you use CCE in your research, please cite:
 
 ```bibtex
-@article{lian2025cce,
+@article{lian2026cce,
   title={Competitive Cluster Elimination (CCE): k-means-guided, evaluation-neutral plug-in for large-scale swarm optimization},
   author={Lian, Junbo Jacob and Ouyang, Kaichen and Zhang, Yujun and Zhong, Rui and Chen, Haoran and Chen, Huiling and Fukunaga, Alex},
   journal={Swarm and Evolutionary Computation},
