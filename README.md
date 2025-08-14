@@ -168,11 +168,10 @@ For questions or collaborations, please open an issue or contact:
 
 ## 🔗 Links
 
-- [Paper](https://github.com/junbolian/Competitive-Cluster-Elimination)
 - [Supplementary Materials](https://github.com/junbolian/Competitive-Cluster-Elimination)
 - [CEC-2017 Benchmark](http://www.ntu.edu.sg/home/epnsugan/)
 - [TSPLIB](http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/)
 
 ---
 
-**Note**: All experimental data, source code, and visualization scripts are available for full reproducibility. Please ensure MATLAB R2020a or later for running the experiments.
+**Note**: All experimental data, source code, and visualization scripts are available for full reproducibility. Please ensure MATLAB R2022a or later for running the experiments.
