@@ -132,7 +132,7 @@ If you use CCE in your research, please cite:
 ```bibtex
 @article{lian2026cce,
   title={Competitive Cluster Elimination (CCE): k-means-guided, evaluation-neutral plug-in for large-scale swarm optimization},
-  author={Lian, Junbo Jacob and Ouyang, Kaichen and Zhang, Yujun and Zhong, Rui and Chen, Haoran and Chen, Huiling and Fukunaga, Alex},
+  author={Lian, Junbo Jacob and Ouyang, Kaichen and Zhang, Yujun and Zhong, Rui and Chen, Haoran and Chen, Huiling},
   journal={Swarm and Evolutionary Computation},
   year={2025},
   publisher={Elsevier}
@@ -154,7 +154,6 @@ If you use CCE in your research, please cite:
 - Rui Zhong - Validation
 - Haoran Chen - Validation
 - Huiling Chen - Supervision and funding
-- Alex Fukunaga - Supervision and analysis
 
 ## 📄 License
 
